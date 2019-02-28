@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+html
+{
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+}
+ 
+h1
+{
+	text-align: center;
+    background-color: rgba(0,206,209,0.5);	
+    margin-bottom: 15px;
+}
+
+div
+{
+	margin:10px; 
+	border-style: solid;
+	border-width:1px;
+	border-color: black;
+	padding: 8px;
+	background-color: rgba(205,192,176,0.7);
+	text-align: left;
+	
+
+}
+
+.html
+{
+	background-color: rgba(0,206,209,0.9);
+}
+.css
+{
+	background-color: rgba(0,206,209,0.5);
+}
+.js
+{
+	background-color: rgba(0,206,209,0.7);
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+@media (min-width: 992px ) {
+ 
+  .col-lg-4 {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+  .col-md-6 {
+    width: 48%;
+    margin: 1%;
+    float: left;   
+  }
+  .col-md-12 {
+     width: 98%;
+     margin: 1%;
+     float: left;
+  }
+}
+@media (max-width: 767px )
+{
+   .col-sm-12 {
+   	width: 98%;
+    margin: 1%;
+    float: left;
+   }
+}
+h2
+{
+	text-align: right;
+
+}
+/*
+While applying 33% my third element(H2 with CSS) didn't place in the first
+	row.
+	While applying 50% my second element(H2 with JS) didn't place in the first row
+	. 
+	
+  
